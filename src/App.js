@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Counter from './counter';
+import Counteries from './Counteries';
+
 
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="mybox">
+     <h1>Welcone to edupoly</h1>
+     <Counteries></Counteries>
+     <Counter></Counter>
+    
     </div>
   );
 }

@@ -1,5 +1,11 @@
 import React from "react";
-function Disp(){
-    return<h1>this is ANJI </h1>
+
+function Todo(){
+    return(
+        <div>
+            <h3>Todo</h3>
+        </div>
+    )
 }
-export default Disp
+
+export default todo
